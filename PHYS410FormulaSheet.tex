@@ -44,7 +44,7 @@
     Gravitational constant         & $G$                                      & $6.673 \times 10^{-11} \mathrm{~m}^{3} \mathrm{~kg}^{-1} \mathrm{~s}^{-2}$     \\
     Permittivity of free space     & $\epsilon_{0}=1 / \mu_{0} c^{2}$         & $8.854 \times 10^{-12} \mathrm{Fm}^{-1}$                                       \\
     Permeability of free space     & $\mu_{0}$                                & $4 \pi \times 10^{-7} \mathrm{~N} \mathrm{~A}^{-2}$                            \\
-    \hline                         &                                          & 
+    \hline                         &                                          &
 \end{tabular}
 
 \subsection*{\underline{Conversion of units:}}
@@ -61,7 +61,7 @@ $1 \mathrm{fm}=10^{-15} \mathrm{~m}$, $1 \mathrm{fm}=10^{-15} \mathrm{~m}, \quad
     \item For a given 1D even potential the stationary states are either even or odd.
     \item The wave function and its first order space derivative are continuous all over space and in particular at the boundaries of a finite potential.
     \item At boundaries with Dirac delta function potential,
-          the wave function is still continuos but the first space derivative of the wavefunction is discontinuous. 
+          the wave function is still continuos but the first space derivative of the wavefunction is discontinuous.
     \item Due to square integrability, physical solution should be finite all over space, no blow ups, in particular at infinity.
     \item The number of nodes (zeros) of the eigenfunction increases by one unit between adjacent states as we move from the ground state (zero nodes) to higher excited states.
     \item Bound states exist only for confining potential (classically between turning points of the potential).
@@ -193,19 +193,19 @@ For the operator $\hat{A}$, $\hat{A}\psi=a\psi$. $a$ in an eigenvalue and $\psi$
 \subsection*{\underline{1D Infinite Square Well:}}
 \begin{align}
      & H\psi_n(x)=E_n\psi_n(x)
-     & 
+     &
      & \int\psi^*_n(x)\psi_n(x)dx=\delta_{n,m}
     \\
      & \phi_n(x)=\sqrt{\frac{2}{a}}\sin\left( \frac{n\pi}{a}x \right); \, n= 1, 2, \dots
-     & 
+     &
      & \phi_n(x,t)=\phi_n(x)e^{-iE_nt/\hbar}
     \\
      & V(x)=\left\{\begin{matrix}0, 0\leq x\leq a\\\infty, \mathrm{otherwise}\end{matrix}\right.
-     & 
+     &
      & E_n=\frac{\hbar^2k_n^2}{2m}=\frac{n^2\pi^2\hbar^2}{2ma^2}
     \\
      & \Psi(x,t)=\sum_{n=1}^\infty c_n\phi_n(x)e^{-iE_nt/\hbar}
-     & 
+     &
      & c_n=\int_0^a\phi_n(x)\Psi(x,0)\,dx
 \end{align}
 
@@ -213,57 +213,57 @@ For the operator $\hat{A}$, $\hat{A}\psi=a\psi$. $a$ in an eigenvalue and $\psi$
 \begin{align}
      & \psi_\pm(\theta)=\frac{1}{\sqrt{2\pi}}\exp{\left( \pm i\frac{R\theta}{\hbar}\sqrt{2mE} \right)}
     = \frac{1}{\sqrt{2\pi}}e^{\pm ikx}
-     & 
+     &
      & x=R\theta; L=2\pi R; k=\frac{2\pi n}{L}=\frac{n}{R}
     \\
      & \psi(\theta)=\frac{1}{\sqrt{2\pi}}\exp{\pm in\theta}
-     & 
+     &
      & E_n=\frac{n^2\hbar^2}{2mR^2},\quad n=0\pm 1,\pm 2,\pm 3,...
 \end{align}
 
 \subsection*{\underline{Harmonic Oscillator:}}
 \begin{align}
      & V(x)=\frac{1}{2}kx^2=\frac{1}{2}m(\omega x)^2\quad \left( \omega\equiv\sqrt{k/m} \right)
-     & 
+     &
      & E_n=\hbar\omega\left( n+\frac{1}{2} \right);n=0,1,2,\dots
     \\
      & H=\frac{1}{2m}[p^2+(m\omega x)^2]=\hbar\omega\left( N+\frac{1}{2} \right)
-     & 
+     &
      & N=a_+a_-\quad (=a^\dagger a)
     \\
      & N\psi_n=n\psi_n; \, a_\pm = \sqrt{\frac{m \omega}{2 \hbar}} (\hat{x} \mp i \frac{\hat{p}}{m \omega})
-     & 
+     &
      & N(a_+\psi_n)=[N,a_+]\psi_n
     \\
      & [N,a_\pm]=\pm a_\pm; \, [a_-, a_+] = 1
-     & 
+     &
      & a_\pm\equiv \frac{1}{\sqrt{2\hbar m\omega}}\left( \mp ip+m\omega x \right)
     \\
      & x=\sqrt{\frac{\hbar}{2m\omega}}\,(a_++a_-)
-     & 
+     &
      & p=i\sqrt{\frac{m\omega\hbar}{2}}\,(a_+ - a_-)
     \\
      & a_+\psi_n=\sqrt{n+1}\psi_{n+1}
-     & 
+     &
      & a_-\psi_n=\sqrt{n}\psi_{n-1}
     \\
      & \psi_0(x)=\left( \frac{m\omega}{\pi\hbar} \right)^{1/4}\exp\left( -\frac{m\omega}{2\hbar}x^2 \right)
-     & 
+     &
      & \psi_n=\frac{1}{\sqrt{n!}}(a_+)^n\psi_0
     \\
      & \xi\equiv\sqrt{\frac{m\omega}{\hbar}}x
-     & 
+     &
      & \mathcal{H}_n(\xi)=(-1)^ne^{\xi^2}\left( \frac{d}{d\xi} \right)^ne^{-\xi^2}
     \\
      & \psi_n(x)=\left( \frac{m\omega}{\pi\hbar} \right)^{1/4}\frac{1}{\sqrt{2^n n!}}\mathcal{H}_n(\xi)e^{-\xi^2/2}
-     & 
+     &
      & \int_{-\infty}^{+\infty}\mathcal{H}_n\mathcal{H}_me^{-x^2}dx=2^nn!\sqrt{\pi}\delta_{n,m}
 \end{align}
 
 \subsection*{\underline{Models of Dirac Delta Distribution $\delta(x)$:}}
 \begin{equation}
-    \delta(x)=\lim_{\alpha\rightarrow\infty}\frac{\sin(\alpha x)}{\pi x};\ 
-    \delta(x)=\lim_{\epsilon\rightarrow0^+}\frac{1}{2\pi}\int_{-\infty}^{\infty}e^{-ikx}e^{-\epsilon |k|}\,dk=\lim_{\epsilon\rightarrow0^+}\frac{\epsilon}{\pi (x^2+\epsilon^2)};\ 
+    \delta(x)=\lim_{\alpha\rightarrow\infty}\frac{\sin(\alpha x)}{\pi x};\
+    \delta(x)=\lim_{\epsilon\rightarrow0^+}\frac{1}{2\pi}\int_{-\infty}^{\infty}e^{-ikx}e^{-\epsilon |k|}\,dk=\lim_{\epsilon\rightarrow0^+}\frac{\epsilon}{\pi (x^2+\epsilon^2)};\
     \delta(x)=\lim_{\epsilon\rightarrow0}\frac{\Theta(x+\epsilon)-\Theta(\epsilon)}{\epsilon}
 \end{equation}
 where $\Theta(x)$ is Heaviside or step function,
@@ -277,32 +277,32 @@ where $\Theta(x)$ is Heaviside or step function,
 \subsection*{\underline{Bound State of Single $\delta$-Potential:} \fbox{$E < 0$}}
 \begin{align}
      & V=-\alpha\delta(x), \ \alpha>0
-     & 
+     &
      & \psi(x)=\sqrt{\frac{m\alpha}{\hbar^2}}\ e^{-\frac{m\alpha}{\hbar^2}|x|}
-     & 
+     &
      & E=-\frac{m\alpha^2}{2\hbar^2}
 \end{align}
 
 \subsection*{\underline{Scattering State:} \fbox{$E > 0$}}
 \begin{align}
      & V(x)=-\alpha\delta(x);\, k = \frac{\sqrt{2mE}}{\hbar}
-     & 
+     &
      & \psi(x) = \begin{cases}
         Ae^{ikx}+Be^{-ikx}, & x<0 \\
         Fe^{ikx},           & x>0
     \end{cases}
     \\
      & T=\frac{|F|^2}{|A|^2}=\frac{1}{1+\beta^2}
-     & 
+     &
      & R=\frac{|B|^2}{|A|^2}=\frac{\beta}{1+\beta}\qquad (\beta=m\alpha/\hbar^2k)
 \end{align}
 
 \subsection*{\underline{Miscellaneous:}}
 \begin{align}
     \int_{-\infty}^\infty e^{-ax^2}\, dx=\sqrt{\frac{\pi}{a}};
-     &  & 
+     &  &
     \int_{-\infty}^\infty e^{-(ax^2+bx)}\,dx=e^{b^2/4a}\sqrt{\frac{\pi}{a}};
-     &  & 
+     &  &
     \delta_{ij} =
     \begin{cases}
         1, & i=j     \\
@@ -377,7 +377,7 @@ $\ket{Jm}$ are common eigenstates of the $J^2,J_z$;\\
 Thus both $J^2$ and $J_z$ are diagonal matrices for any fixed value of J, the dimension of these matrices is $(2J+1) \times (2J+1)$ since $m=-J,-J+1,\dots,J-1,J,$ (2J+1 Values).\\
 $J=\frac{1}{2}\implies 2J+1=2 \implies 2\times2 \text{ matrices}.\\$
 $J=1\implies 2J+1=3 \implies 3\times3\text{ matrices}.$
-    \begin{flalign}    
+    \begin{flalign}
          & J_\pm=J_x \pm iJ_y
          &                    & J_\pm\ket{J m}=\sqrt{J(J+1)-m(m\pm1)}\ket{J m\pm1}
     \end{flalign}
@@ -386,7 +386,7 @@ $J=1\implies 2J+1=3 \implies 3\times3\text{ matrices}.$
 $\ket{J,J}\quad\ket{J,J-1}\quad\ket{J,J-2}\quad \dots \quad\ket{J,-J}$\\
     For a fixed J here is the expectation of operator A:
     \begin{equation}
-        A = 
+        A =
         \left(\begin{matrix}
             \bra J A \ket J     & \bra J A \ket {J-1}   & \dots  & \bra J A \ket {-J}     \\
             \bra{ J-1} A \ket J & \bra{J-1} A \ket{J-1} & \dots  & \bra{ J-1} A \ket {-J} \\
@@ -395,162 +395,162 @@ $\ket{J,J}\quad\ket{J,J-1}\quad\ket{J,J-2}\quad \dots \quad\ket{J,-J}$\\
         \end{matrix}\right)
     \end{equation}
     in the above matrix, for a fixed J we denote $\ket{J m}=\ket m$.
-    
+
     \subsection*{\underline{Spin Angular Momentum Operator}}
     For $j=\frac{1}{2}\implies \ket{\uparrow} = \ket{\frac{1}{2},\frac{1}{2}}; \ket{\downarrow} = \ket{\frac{1}{2},-\frac{1}{2}} then:$
-\begin{flalign}
-     & S_x=\frac{\hbar}{2}\left(
-    \begin{matrix}
-            0 & 1 \\
-            1 & 0
-        \end{matrix}\right) = \frac{\hbar}{2}\sigma_1
-     &                                  & S_y=\frac{\hbar}{2}\left(
-    \begin{matrix}
-            0 & -i \\
-            i & 0
-        \end{matrix}\right) = \frac{\hbar}{2}\sigma_2
-     &                                  & S_z=\frac{\hbar}{2}\left(
-    \begin{matrix}
-            1 & 0  \\
-            0 & -1
-        \end{matrix}\right) = \frac{\hbar}{2}\sigma_3
-     &                                                                     \\
-     & \left[S_x, S_y\right]=i\hbar S_z
-     &                                  & \left[S_z, S_x\right]=i\hbar S_y
-     &                                  & \left[S_y, S_z\right]=i\hbar S_x
-     &                                                                     \\
-     & S_+=S_x+iS_y
-     &                                  & S_-=S_x-iS_y
-     &                                                                     \\
-     & S_+=\frac{\hbar}{2}\left(
-    \begin{matrix}
-            0 & 2 \\
-            0 & 0
-        \end{matrix}\right)
-     &                                  & S_-=\frac{\hbar}{2}\left(
-    \begin{matrix}
-            0 & 0 \\
-            2 & 0
-        \end{matrix}\right)
-\end{flalign}
+    \begin{flalign}
+         & S_x=\frac{\hbar}{2}\left(
+        \begin{matrix}
+                0 & 1 \\
+                1 & 0
+            \end{matrix}\right) = \frac{\hbar}{2}\sigma_1
+         &                                  & S_y=\frac{\hbar}{2}\left(
+        \begin{matrix}
+                0 & -i \\
+                i & 0
+            \end{matrix}\right) = \frac{\hbar}{2}\sigma_2
+         &                                  & S_z=\frac{\hbar}{2}\left(
+        \begin{matrix}
+                1 & 0  \\
+                0 & -1
+            \end{matrix}\right) = \frac{\hbar}{2}\sigma_3
+         &                                                                     \\
+         & \left[S_x, S_y\right]=i\hbar S_z
+         &                                  & \left[S_z, S_x\right]=i\hbar S_y
+         &                                  & \left[S_y, S_z\right]=i\hbar S_x
+         &                                                                     \\
+         & S_+=S_x+iS_y
+         &                                  & S_-=S_x-iS_y
+         &                                                                     \\
+         & S_+=\frac{\hbar}{2}\left(
+        \begin{matrix}
+                0 & 2 \\
+                0 & 0
+            \end{matrix}\right)
+         &                                  & S_-=\frac{\hbar}{2}\left(
+        \begin{matrix}
+                0 & 0 \\
+                2 & 0
+            \end{matrix}\right)
+    \end{flalign}
 
-\subsection*{\underline{Spherical Harmonics:}}
-\begin{gather}
-    \langle \theta\, \phi | l \,m \rangle = Y_{\ell, m}(\theta, \phi) \equiv \mathcal{N}_{\ell, m} P_{\ell}^{m}(\cos \theta) e^{i m \phi}\\
-    \hat{L}_{z} Y_{\ell m}=\hbar m Y_{\ell m}\\
-    \hat{L}^{2} Y_{\ell m}=\hbar^{2} \ell(\ell+1) Y_{\ell m}\\
-    \langle l' \,m' | l \,m \rangle = \int d \Omega Y_{\ell^{\prime} m^{\prime}}^{*}(\theta, \phi) Y_{\ell m}(\theta, \phi)=\delta_{\ell^{\prime}, \ell} \delta_{m^{\prime}, m}, \quad \int d \Omega=\int_{0}^{2 \pi} d \phi \int_{-1}^{1} d(\cos \theta)\\
-    Y_{0,0}(\theta, \phi)=\frac{1}{\sqrt{4 \pi}} ; \quad Y_{1, \pm 1}(\theta, \phi)=\mp \sqrt{\frac{3}{8 \pi}} \sin \theta \exp (\pm i \phi) ; \quad Y_{1,0}(\theta, \phi)=\sqrt{\frac{3}{4 \pi}} \cos \theta \\
-    \int |\theta \, \phi \rangle \langle \theta \, \phi | \, d\Omega = 1 \qquad \sum_{lm} | l \, m \rangle \langle l \, m | = 1
-\end{gather}
+    \subsection*{\underline{Spherical Harmonics:}}
+    \begin{gather}
+        \langle \theta\, \phi | l \,m \rangle = Y_{\ell, m}(\theta, \phi) \equiv \mathcal{N}_{\ell, m} P_{\ell}^{m}(\cos \theta) e^{i m \phi}\\
+        \hat{L}_{z} Y_{\ell m}=\hbar m Y_{\ell m}\\
+        \hat{L}^{2} Y_{\ell m}=\hbar^{2} \ell(\ell+1) Y_{\ell m}\\
+        \langle l' \,m' | l \,m \rangle = \int d \Omega Y_{\ell^{\prime} m^{\prime}}^{*}(\theta, \phi) Y_{\ell m}(\theta, \phi)=\delta_{\ell^{\prime}, \ell} \delta_{m^{\prime}, m}, \quad \int d \Omega=\int_{0}^{2 \pi} d \phi \int_{-1}^{1} d(\cos \theta)\\
+        Y_{0,0}(\theta, \phi)=\frac{1}{\sqrt{4 \pi}} ; \quad Y_{1, \pm 1}(\theta, \phi)=\mp \sqrt{\frac{3}{8 \pi}} \sin \theta \exp (\pm i \phi) ; \quad Y_{1,0}(\theta, \phi)=\sqrt{\frac{3}{4 \pi}} \cos \theta \\
+        \int |\theta \, \phi \rangle \langle \theta \, \phi | \, d\Omega = 1 \qquad \sum_{lm} | l \, m \rangle \langle l \, m | = 1
+    \end{gather}
 
-\subsection*{\underline{Central Potentials $V(\mathbf{r})=V(r)$:}}
-\begin{gather}
-    \left[ \frac{-\hbar^2}{2m}\nabla^2+V(r) \right]\psi(r,\theta,\phi)=E\psi(r,\theta,\phi)\\
-    -\frac{\hbar^2}{2m}\left[ \frac{1}{r}\frac{\partial^2}{\partial r^2}r- \frac{L^2(\theta,\phi)}{\hbar^2r^2}+V(r)\right]\psi(r,\theta,\phi)=E\psi(r,\theta,\phi)\\
-    \psi(r, \theta, \phi)=R(r)Y_{l,m}*(\theta\phi)\\
-    \psi(r, \theta, \phi)=\frac{u(r)}{r} Y_{\ell m}(\theta, \phi)\\
-    \left(-\frac{\hbar^{2}}{2 m} \frac{d^{2}}{d r^{2}}+V(r)+\frac{\hbar^{2} \ell(\ell+1)}{2 m r^{2}}\right) u(r)=E u(r)\\
-    u(r) \sim r^{\ell+1},\ \text{as} \, r \rightarrow 0 \\
-    \left[ -\frac{\hbar^2}{2m} \frac{d^2}{dr^2} + V_{\text{eff}}(r) \right] u(r) = E\, u(r); \qquad V_{\text{eff}}(r) = V(r) + \frac{\hbar^2 \ell (\ell +1)}{2m r^2} \\
-    \nabla^{2}=\frac{1}{r} \frac{\partial^{2}}{\partial r^{2}} r+\frac{1}{r^{2}}\left(\frac{\partial^{2}}{\partial \theta^{2}}+\cot \theta \frac{\partial}{\partial \theta}+\frac{1}{\sin ^{2} \theta} \frac{\partial^{2}}{\partial \phi^{2}}\right) \\
-    \hat{L}^{2}=-\hbar^{2}\left(\frac{\partial^{2}}{\partial \theta^{2}}+\cot \theta \frac{\partial}{\partial \theta}+\frac{1}{\sin ^{2} \theta} \frac{\partial^{2}}{\partial \phi^{2}}\right) \\
-    \hat{L}_{z}=\frac{\hbar}{i} \frac{\partial}{\partial \phi} ; \quad \hat{L}_{\pm}=\hbar e^{\pm i \phi}\left(\pm \frac{\partial}{\partial \theta}+i \cot \theta \frac{\partial}{\partial \phi}\right)=\hat{L}_{x}\pm i\hat{L}_{y}
-\end{gather}
+    \subsection*{\underline{Central Potentials $V(\mathbf{r})=V(r)$:}}
+    \begin{gather}
+        \left[ \frac{-\hbar^2}{2m}\nabla^2+V(r) \right]\psi(r,\theta,\phi)=E\psi(r,\theta,\phi)\\
+        -\frac{\hbar^2}{2m}\left[ \frac{1}{r}\frac{\partial^2}{\partial r^2}r- \frac{L^2(\theta,\phi)}{\hbar^2r^2}+V(r)\right]\psi(r,\theta,\phi)=E\psi(r,\theta,\phi)\\
+        \psi(r, \theta, \phi)=R(r)Y_{l,m}*(\theta\phi)\\
+        \psi(r, \theta, \phi)=\frac{u(r)}{r} Y_{\ell m}(\theta, \phi)\\
+        \left(-\frac{\hbar^{2}}{2 m} \frac{d^{2}}{d r^{2}}+V(r)+\frac{\hbar^{2} \ell(\ell+1)}{2 m r^{2}}\right) u(r)=E u(r)\\
+        u(r) \sim r^{\ell+1},\ \text{as} \, r \rightarrow 0 \\
+        \left[ -\frac{\hbar^2}{2m} \frac{d^2}{dr^2} + V_{\text{eff}}(r) \right] u(r) = E\, u(r); \qquad V_{\text{eff}}(r) = V(r) + \frac{\hbar^2 \ell (\ell +1)}{2m r^2} \\
+        \nabla^{2}=\frac{1}{r} \frac{\partial^{2}}{\partial r^{2}} r+\frac{1}{r^{2}}\left(\frac{\partial^{2}}{\partial \theta^{2}}+\cot \theta \frac{\partial}{\partial \theta}+\frac{1}{\sin ^{2} \theta} \frac{\partial^{2}}{\partial \phi^{2}}\right) \\
+        \hat{L}^{2}=-\hbar^{2}\left(\frac{\partial^{2}}{\partial \theta^{2}}+\cot \theta \frac{\partial}{\partial \theta}+\frac{1}{\sin ^{2} \theta} \frac{\partial^{2}}{\partial \phi^{2}}\right) \\
+        \hat{L}_{z}=\frac{\hbar}{i} \frac{\partial}{\partial \phi} ; \quad \hat{L}_{\pm}=\hbar e^{\pm i \phi}\left(\pm \frac{\partial}{\partial \theta}+i \cot \theta \frac{\partial}{\partial \phi}\right)=\hat{L}_{x}\pm i\hat{L}_{y}
+    \end{gather}
 
-\subsection*{\underline{Hydrogen Atom (Z=1):}}
-\begin{gather}
-    V(r) = - \frac{Z e^2}{r} \qquad V_\text{eff}(r) = - \frac{Z e^2}{r} + \frac{\hbar^2 \ell (\ell +1)}{2m r^2} \\
-    H=\frac{\mathbf{p}^{2}}{2 m}-\frac{Z e^{2}}{r} \\
-    E_{n}=-\frac{Z^{2} e^{2}}{2 a_{0}} \frac{1}{n^{2}}, \quad a_{0}=\frac{\hbar^{2}}{m e^{2}} \simeq 0.529 \times 10^{-10} \mathrm{~m}, \quad \frac{e^{2}}{2 a_{0}} \simeq 13.6 \mathrm{eV} \\
-    \psi_{n \ell m}(r, \theta,\phi)=A\left(\frac{r}{a_{0}}\right)^{\ell}\left(\text { Polynomial in } \frac{r}{a_{0}} \text { of degree } n-(\ell+1)\right) e^{-\frac{Z_{r}}{n a_{0}}} {Y_{\ell}^m}(\theta, \phi) \\
-    \psi_{n\ell m}(r, \theta, \phi) = R_{n \ell}(r){Y_{\ell}^m}(\theta, \phi)= \sqrt{\left(\frac{2}{na}\right)^3\frac{\left(n-\ell-1\right)!}{2n(n+\ell)!}}e^{\frac{-r}{na}}\left(\frac{2r}{na}\right)^\ell [L_{n-\ell-1}^{2\ell+1}\left(\frac{2r}{na}\right)]{Y_{\ell}^m}(\theta, \phi)\\
-    \int\psi^*_{n \ell m}(\vec{r})\psi_{n' \ell ' m'}(\vec{r})d^3\vec r=\delta_{nn'}\delta_{mm'}\delta_{\ell\ell '}\\
-    \hat{H}\psi_{n \ell m}(\vec{r}) = E_n\psi_{n \ell m}(\vec{r})\\
-    n=1,2, \ldots, \quad \ell=0,1, \ldots, n-1, \quad m=-\ell, \ldots, \ell \\
-    \psi_{n\ell m}(r, \theta, \phi)=\frac{u_{n \ell}(r)}{r} {Y_{\ell}^m}(\theta, \phi) \\
-    u_{1,0}(r)=\frac{2 r}{a_{0}^{3 / 2}} \exp \left(-r / a_{0}\right) \\
-    u_{2,0}(r)=\frac{2 r}{\left(2 a_{0}\right)^{3 / 2}}\left(1-\frac{r}{2 a_{0}}\right) \exp \left(-r / 2 a_{0}\right) \\
-    u_{2,1}(r)=\frac{1}{\sqrt{3}} \frac{1}{\left(2 a_{0}\right)^{3 / 2}} \frac{r^{2}}{a_{0}} \exp \left(-r / 2 a_{0}\right) \\
-    \Psi_{100}(r, \theta, \phi) = \frac{2r}{\sqrt{4 \pi a_0^3}} e^{-r/a_0}
-\end{gather}
+    \subsection*{\underline{Hydrogen Atom (Z=1):}}
+    \begin{gather}
+        V(r) = - \frac{Z e^2}{r} \qquad V_\text{eff}(r) = - \frac{Z e^2}{r} + \frac{\hbar^2 \ell (\ell +1)}{2m r^2} \\
+        H=\frac{\mathbf{p}^{2}}{2 m}-\frac{Z e^{2}}{r} \\
+        E_{n}=-\frac{Z^{2} e^{2}}{2 a_{0}} \frac{1}{n^{2}}, \quad a_{0}=\frac{\hbar^{2}}{m e^{2}} \simeq 0.529 \times 10^{-10} \mathrm{~m}, \quad \frac{e^{2}}{2 a_{0}} \simeq 13.6 \mathrm{eV} \\
+        \psi_{n \ell m}(r, \theta,\phi)=A\left(\frac{r}{a_{0}}\right)^{\ell}\left(\text { Polynomial in } \frac{r}{a_{0}} \text { of degree } n-(\ell+1)\right) e^{-\frac{Z_{r}}{n a_{0}}} {Y_{\ell}^m}(\theta, \phi) \\
+        \psi_{n\ell m}(r, \theta, \phi) = R_{n \ell}(r){Y_{\ell}^m}(\theta, \phi)= \sqrt{\left(\frac{2}{na}\right)^3\frac{\left(n-\ell-1\right)!}{2n(n+\ell)!}}e^{\frac{-r}{na}}\left(\frac{2r}{na}\right)^\ell [L_{n-\ell-1}^{2\ell+1}\left(\frac{2r}{na}\right)]{Y_{\ell}^m}(\theta, \phi)\\
+        \int\psi^*_{n \ell m}(\vec{r})\psi_{n' \ell ' m'}(\vec{r})d^3\vec r=\delta_{nn'}\delta_{mm'}\delta_{\ell\ell '}\\
+        \hat{H}\psi_{n \ell m}(\vec{r}) = E_n\psi_{n \ell m}(\vec{r})\\
+        n=1,2, \ldots, \quad \ell=0,1, \ldots, n-1, \quad m=-\ell, \ldots, \ell \\
+        \psi_{n\ell m}(r, \theta, \phi)=\frac{u_{n \ell}(r)}{r} {Y_{\ell}^m}(\theta, \phi) \\
+        u_{1,0}(r)=\frac{2 r}{a_{0}^{3 / 2}} \exp \left(-r / a_{0}\right) \\
+        u_{2,0}(r)=\frac{2 r}{\left(2 a_{0}\right)^{3 / 2}}\left(1-\frac{r}{2 a_{0}}\right) \exp \left(-r / 2 a_{0}\right) \\
+        u_{2,1}(r)=\frac{1}{\sqrt{3}} \frac{1}{\left(2 a_{0}\right)^{3 / 2}} \frac{r^{2}}{a_{0}} \exp \left(-r / 2 a_{0}\right) \\
+        \Psi_{100}(r, \theta, \phi) = \frac{2r}{\sqrt{4 \pi a_0^3}} e^{-r/a_0}
+    \end{gather}
 
-\subsection*{\underline{Transfer Matrix}} % (fold)
-\label{sub:Transfer Matrix}
-\begin{align}
-    \begin{bmatrix}
-        F \\ G
-    \end{bmatrix} = M \begin{bmatrix}
-        A \\ B
-    \end{bmatrix} \qquad
-    M = \begin{bmatrix}
-        M_{11}   & M_{12}   \\ 
-        M^*_{12} & M^*_{11}
-    \end{bmatrix} \qquad
-    \det{M} = 1
-\end{align}
-\begin{wrapfigure}{r}{0.35\linewidth}
-    \includegraphics[width=1\linewidth]{arbitrary_V.png}
-    \caption{Scattering from an arbitrary localized potential ($V(x)=0$ except for Region II)}
-    \label{fig:arbitrary localized potential}
-\end{wrapfigure}
-\begin{align}
-    T = \frac{1}{|M_{22}|^2}; \qquad R+T = 1
-\end{align}
-% subsection Transfer Matrix (end)
+    \subsection*{\underline{Transfer Matrix}} % (fold)
+    \label{sub:Transfer Matrix}
+    \begin{align}
+        \begin{bmatrix}
+            F \\ G
+        \end{bmatrix} = M \begin{bmatrix}
+            A \\ B
+        \end{bmatrix} \qquad
+        M = \begin{bmatrix}
+            M_{11}   & M_{12}   \\
+            M^*_{12} & M^*_{11}
+        \end{bmatrix} \qquad
+        \det{M} = 1
+    \end{align}
+    \begin{wrapfigure}{r}{0.35\linewidth}
+        \includegraphics[width=1\linewidth]{arbitrary_V.png}
+        \caption{Scattering from an arbitrary localized potential ($V(x)=0$ except for Region II)}
+        \label{fig:arbitrary localized potential}
+    \end{wrapfigure}
+    \begin{align}
+        T = \frac{1}{|M_{22}|^2}; \qquad R+T = 1
+    \end{align}
+    % subsection Transfer Matrix (end)
 
-\newpage
-\subsection*{\underline{Spherical Coordinates:}}
-$$
-    \begin{aligned}
-         & \hat{\mathbf{r}}=\sin \theta \cos \phi \hat{\mathbf{x}}+\sin \theta \sin \phi \hat{\mathbf{y}}+\cos \theta \hat{\mathbf{z}}          \\
-         & \hat{\boldsymbol{\theta}}=\cos \theta \cos \phi \hat{\mathbf{x}}+\cos \theta \sin \phi \hat{\mathbf{y}}-\sin \theta \hat{\mathbf{z}} \\
-         & \hat{\boldsymbol{\phi}}=-\sin \phi \hat{\mathbf{x}}+\cos \phi \hat{\mathbf{y}}
-    \end{aligned}
-$$
-$$
-    \begin{aligned}
-         & \hat{\mathbf{x}}=\sin \theta \cos \phi \hat{\mathbf{r}}+\cos \theta \cos \phi \hat{\boldsymbol{\theta}}-\sin \phi \hat{\boldsymbol{\phi}} \\
-         & \hat{\mathbf{y}}=\sin \theta \sin \phi \hat{\mathbf{r}}+\cos \theta \sin \phi \hat{\boldsymbol{\theta}}+\cos \phi \hat{\boldsymbol{\phi}} \\
-         & \hat{\mathbf{z}}=\cos \theta \hat{\mathbf{r}}-\sin \theta \hat{\boldsymbol{\theta}}
-    \end{aligned}
-$$
+    \newpage
+    \subsection*{\underline{Spherical Coordinates:}}
+    $$
+        \begin{aligned}
+             & \hat{\mathbf{r}}=\sin \theta \cos \phi \hat{\mathbf{x}}+\sin \theta \sin \phi \hat{\mathbf{y}}+\cos \theta \hat{\mathbf{z}}          \\
+             & \hat{\boldsymbol{\theta}}=\cos \theta \cos \phi \hat{\mathbf{x}}+\cos \theta \sin \phi \hat{\mathbf{y}}-\sin \theta \hat{\mathbf{z}} \\
+             & \hat{\boldsymbol{\phi}}=-\sin \phi \hat{\mathbf{x}}+\cos \phi \hat{\mathbf{y}}
+        \end{aligned}
+    $$
+    $$
+        \begin{aligned}
+             & \hat{\mathbf{x}}=\sin \theta \cos \phi \hat{\mathbf{r}}+\cos \theta \cos \phi \hat{\boldsymbol{\theta}}-\sin \phi \hat{\boldsymbol{\phi}} \\
+             & \hat{\mathbf{y}}=\sin \theta \sin \phi \hat{\mathbf{r}}+\cos \theta \sin \phi \hat{\boldsymbol{\theta}}+\cos \phi \hat{\boldsymbol{\phi}} \\
+             & \hat{\mathbf{z}}=\cos \theta \hat{\mathbf{r}}-\sin \theta \hat{\boldsymbol{\theta}}
+        \end{aligned}
+    $$
 
-\subsection*{\underline{Identical Particles:}}
-Particles that share the same intrinsic properties: mass, charge, spin, magnetic moment, \dots etc. Identical particles are indistinguishable
-\begin{equation}
-    \Psi(1, 2, \dots, i, \dots, j, \dots, N)=\pm\Psi(1, 2, \dots, j, \dots, i, \dots, N)
-\end{equation}
-are either symmetric for Bosons (integer spin particles) or antisymmetric for Fermions (half integer spin particles) under exchange of any two particles.\\
+    \subsection*{\underline{Identical Particles:}}
+    Particles that share the same intrinsic properties: mass, charge, spin, magnetic moment, \dots etc. Identical particles are indistinguishable
+    \begin{equation}
+        \Psi(1, 2, \dots, i, \dots, j, \dots, N)=\pm\Psi(1, 2, \dots, j, \dots, i, \dots, N)
+    \end{equation}
+    are either symmetric for Bosons (integer spin particles) or antisymmetric for Fermions (half integer spin particles) under exchange of any two particles.\\
 $\implies$ Pauli Exclusion Principle: Two identical Fermions cannot occupy the same quantum state.
-\begin{equation}
-    \Psi_{Fermions}(R_1,R_2,\dots,R_N)= \frac{1}{\sqrt{N!}}
-    \left(\begin{matrix}
-            \Psi_1(R_1) & \Psi_2(R_1) & \dots  & \Psi_N(R_1) \\
-            \Psi_1(R_2) & \Psi_2(R_2) & \dots  & \Psi_N(R_2) \\
-            \vdots      & \vdots      & \vdots & \vdots      \\
-            \Psi_1(R_N) & \Psi_2(R_N) & \dots  & \Psi_N(R_N)
-        \end{matrix}\right)
-\end{equation}
-For Bosons use the same Slater-determinant by replacing all signs be + .
-Spin $\frac{1}{2}$ particles can be in any of the following states:
-\begin{enumerate}
-    \item[] \underline{Singlet State (Antisymmetric state):} \begin{equation} \chi_s(s1,s2)=\frac{1}{\sqrt{2}}(\chi_{\uparrow}(s1)\chi_{\downarrow}(s2)-\chi_{\downarrow}(s1)\chi_{\uparrow}(s2)) \end{equation} with total spin s=0.
-    \item[] \underline{Triplet States (Symmetric state):} with total spin $S_z=$1, 0, -1:
-        \begin{gather}
-            \chi_T(s_1, s_2) 
-            \begin{cases}
-                \chi_{1,1}(s_1,s_2)=\chi_{\uparrow}(s_1)\chi_{\uparrow}(s_2)       \\
-                \chi_{-1,-1}(s_1,s_2)=\chi_{\downarrow}(s_1)\chi_{\downarrow}(s_2) \\
-                \chi_{1,0}(s_1,s_2)=\frac{1}{\sqrt{2}}(\chi_{\uparrow}(s_1)\chi_{\downarrow}(s_2)+\chi_{\downarrow}(s_1)\chi_{\uparrow}(s_2))
-            \end{cases}
-        \end{gather}
-\end{enumerate}
+    \begin{equation}
+        \Psi_{Fermions}(R_1,R_2,\dots,R_N)= \frac{1}{\sqrt{N!}}
+        \left(\begin{matrix}
+                \Psi_1(R_1) & \Psi_2(R_1) & \dots  & \Psi_N(R_1) \\
+                \Psi_1(R_2) & \Psi_2(R_2) & \dots  & \Psi_N(R_2) \\
+                \vdots      & \vdots      & \vdots & \vdots      \\
+                \Psi_1(R_N) & \Psi_2(R_N) & \dots  & \Psi_N(R_N)
+            \end{matrix}\right)
+    \end{equation}
+    For Bosons use the same Slater-determinant by replacing all signs be + .
+    Spin $\frac{1}{2}$ particles can be in any of the following states:
+    \begin{enumerate}
+        \item[] \underline{Singlet State (Antisymmetric state):} \begin{equation} \chi_s(s1,s2)=\frac{1}{\sqrt{2}}(\chi_{\uparrow}(s1)\chi_{\downarrow}(s2)-\chi_{\downarrow}(s1)\chi_{\uparrow}(s2)) \end{equation} with total spin s=0.
+        \item[] \underline{Triplet States (Symmetric state):} with total spin $S_z=$1, 0, -1:
+            \begin{gather}
+                \chi_T(s_1, s_2)
+                \begin{cases}
+                    \chi_{1,1}(s_1,s_2)=\chi_{\uparrow}(s_1)\chi_{\uparrow}(s_2)       \\
+                    \chi_{-1,-1}(s_1,s_2)=\chi_{\downarrow}(s_1)\chi_{\downarrow}(s_2) \\
+                    \chi_{1,0}(s_1,s_2)=\frac{1}{\sqrt{2}}(\chi_{\uparrow}(s_1)\chi_{\downarrow}(s_2)+\chi_{\downarrow}(s_1)\chi_{\uparrow}(s_2))
+                \end{cases}
+            \end{gather}
+    \end{enumerate}
 
-\subsection*{\underline{Electron Gas in Volume V:}}
-Each eigenvalue in k-space occupy a volume $\frac{{(2\pi)^3}}{V}$ so that 2 for spin states:
-\begin{equation} \sum_k f(k)=2\frac{V}{(2\pi)^3}\int d^3k f(k) \end{equation}
-Highest occupied wave vector is called Fermi wave vector k$_F$
+    \subsection*{\underline{Electron Gas in Volume V:}}
+    Each eigenvalue in k-space occupy a volume $\frac{{(2\pi)^3}}{V}$ so that 2 for spin states:
+    \begin{equation} \sum_k f(k)=2\frac{V}{(2\pi)^3}\int d^3k f(k) \end{equation}
+    Highest occupied wave vector is called Fermi wave vector k$_F$
 \begin{equation} k_F = (3\pi^2n)^{1/3}; \, n=\frac{N}{V} \,\, \text{Electronic Density}\end{equation}
 
 \subsection*{\underline{Ground State of N Electrons in Volume V:}}
@@ -601,26 +601,26 @@ Highest occupied wave vector is called Fermi wave vector k$_F$
 \subsection*{\underline{Non-Degenerate Perturbation Theory}}
 
 \begin{align}
-	&H = H^0 + \lambda H' = H(\lambda)\\
-	&H(\lambda) \psi_n (\lambda) = E_n (\lambda) \psi_n (\lambda)\\
-	&\psi_n(\lambda) = \psi_n^0 + \lambda \psi_n^1 + \lambda^2 \psi_n^2+\cdots\\
-	&E_n(\lambda) = E_n^0 + \lambda E_n^1 + \lambda^2 E_n^2 + \cdots\\
-	&\text{Assume }\psi_n(\lambda), \, E_n(\lambda) \text{ converges}\\
+     & H = H^0 + \lambda H' = H(\lambda)                                         \\
+     & H(\lambda) \psi_n (\lambda) = E_n (\lambda) \psi_n (\lambda)              \\
+     & \psi_n(\lambda) = \psi_n^0 + \lambda \psi_n^1 + \lambda^2 \psi_n^2+\cdots \\
+     & E_n(\lambda) = E_n^0 + \lambda E_n^1 + \lambda^2 E_n^2 + \cdots           \\
+     & \text{Assume }\psi_n(\lambda), \, E_n(\lambda) \text{ converges}          \\
 \end{align}
 \begin{align}
-	\lambda^0: \quad &H^0|\psi_n^0\rangle = E_n^0 |\psi_n^0\rangle\\
-	\lambda^1: \quad &H^0|\psi_n^1\rangle + H'\psi_n^0 = E_n^0|\psi_n^1\rangle
-	+ E_n^1|\psi_n^0\rangle\\
-	\lambda^2: \quad &H^0|\psi_n^2\rangle + H'\psi_n^1 = E_n^0|\psi_n^2\rangle
-	+ E_n^1|\psi_n^1\rangle + E_n^2|\psi_n^0\rangle
+    \lambda^0: \quad & H^0|\psi_n^0\rangle = E_n^0 |\psi_n^0\rangle             \\
+    \lambda^1: \quad & H^0|\psi_n^1\rangle + H'\psi_n^0 = E_n^0|\psi_n^1\rangle
+    + E_n^1|\psi_n^0\rangle                                                     \\
+    \lambda^2: \quad & H^0|\psi_n^2\rangle + H'\psi_n^1 = E_n^0|\psi_n^2\rangle
+    + E_n^1|\psi_n^1\rangle + E_n^2|\psi_n^0\rangle
 \end{align}
 
 \begin{align}
-	E_n^1 &= \langle\psi_n^0|H'|\psi_n^0\rangle\\
-	|\psi_n^1\rangle &= \sum_{m\ne n} \frac{\langle \psi_m^0|H'|
-	\psi_n^0\rangle}{E_n^0 - E_m^0} |\psi_m^0\rangle\\
-	E_n^2 &= \langle \psi_n^0 | H' | \psi_n^1\rangle\\
-	E_n^2 &= \sum_{m\ne n} \frac{\left| \langle\psi_m^0|H'|\psi_n^0\rangle 
-	\right|^2}{E_n^0 - E_m^0}
+    E_n^1            & = \langle\psi_n^0|H'|\psi_n^0\rangle                            \\
+    |\psi_n^1\rangle & = \sum_{m\ne n} \frac{\langle \psi_m^0|H'|
+    \psi_n^0\rangle}{E_n^0 - E_m^0} |\psi_m^0\rangle                                   \\
+    E_n^2            & = \langle \psi_n^0 | H' | \psi_n^1\rangle                       \\
+    E_n^2            & = \sum_{m\ne n} \frac{\left| \langle\psi_m^0|H'|\psi_n^0\rangle
+        \right|^2}{E_n^0 - E_m^0}
 \end{align}
 \end{document}
