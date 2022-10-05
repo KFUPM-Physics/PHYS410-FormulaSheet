@@ -1,5 +1,4 @@
 \subsection*{\underline{Non-Degenerate Perturbation Theory}}
-
 \begin{align}
      & H = H^0 + \lambda H' = H(\lambda)                                         \\
      & H(\lambda) \psi_n (\lambda) = E_n (\lambda) \psi_n (\lambda)              \\
@@ -14,7 +13,6 @@
     \lambda^2: \quad & H^0|\psi_n^2\rangle + H'\psi_n^1 = E_n^0|\psi_n^2\rangle
     + E_n^1|\psi_n^1\rangle + E_n^2|\psi_n^0\rangle
 \end{align}
-
 \begin{align}
     E_n^1            & = \langle\psi_n^0|H'|\psi_n^0\rangle                            \\
     |\psi_n^1\rangle & = \sum_{m\ne n} \frac{\langle \psi_m^0|H'|
@@ -22,4 +20,28 @@
     E_n^2            & = \langle \psi_n^0 | H' | \psi_n^1\rangle                       \\
     E_n^2            & = \sum_{m\ne n} \frac{\left| \langle\psi_m^0|H'|\psi_n^0\rangle
         \right|^2}{E_n^0 - E_m^0}
+\end{align}
+
+Let $| \psi_1^0 \rangle$ and $| \psi_2^0 \rangle$ be degenerate states of $H^0$, then
+\begin{align}
+    H' = \begin{bmatrix}
+        H'_{11} & H'_{12} \\
+        H'_{21} & H'_{22} \\
+    \end{bmatrix}; \quad \text{where} \quad
+    H'_{ij} = \langle \psi_i^0 | H' | \psi_j^0 \rangle
+\end{align}
+\begin{align}
+    | H' - E^1 I | = \begin{bmatrix}
+        H'_{11} - E^1 & H'_{12} \\
+        H'_{21} & H'_{22} - E^1 \\
+    \end{bmatrix} \begin{bmatrix}
+        \alpha_1 \\
+        \alpha_2
+    \end{bmatrix} = \begin{bmatrix}
+        0 \\ 0
+    \end{bmatrix}
+\end{align}
+\begin{align}
+    E^1_\pm = \frac{1}{2}\, \left[ H'_{11} + H'_{22} \pm \sqrt{(H'_{11}-H'_{11})^2 + 4|H'_{12}|^2} \right]
+    \quad \text{and} \quad |\psi_\pm \rangle = \alpha_1 |\psi_1^0 \rangle + \alpha_2 |\psi_2^0 \rangle
 \end{align}
