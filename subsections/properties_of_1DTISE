@@ -1,0 +1,16 @@
+\subsection*{\underline{Properties of the Solution of 1D Stationary Schrodinger Equation:}}
+\begin{enumerate}
+    \item For 1D potential, all stationary solutions are non-degenerate.
+    \item Stationary square integrable solution exist only for $E > min{(V(x))}$
+    \item If V(x) is real, then $\Psi$(x) can be taken to be real.
+    \item Eigenvalues of a Hermitian Hamiltonian are all real.
+    \item The eigenfunctions of a Hermitian operator form a complete orthogonal basis set, for smooth potentials.
+    \item 1D Schrodinger equation Solution is real up to an over all phase.
+    \item For a given 1D even potential the stationary states are either even or odd.
+    \item The wave function and its first order space derivative are continuous all over space and in particular at the boundaries of a finite potential.
+    \item At boundaries with Dirac delta function potential,
+          the wave function is still continuos but the first space derivative of the wavefunction is discontinuous. 
+    \item Due to square integrability, physical solution should be finite all over space, no blow ups, in particular at infinity.
+    \item The number of nodes (zeros) of the eigenfunction increases by one unit between adjacent states as we move from the ground state (zero nodes) to higher excited states.
+    \item Bound states exist only for confining potential (classically between turning points of the potential).
+\end{enumerate}

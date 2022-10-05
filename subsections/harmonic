@@ -1,0 +1,38 @@
+\subsection*{\underline{Harmonic Oscillator:}}
+\begin{align}
+     & V(x)=\frac{1}{2}kx^2=\frac{1}{2}m(\omega x)^2\quad \left( \omega\equiv\sqrt{k/m} \right)
+     & 
+     & E_n=\hbar\omega\left( n+\frac{1}{2} \right);n=0,1,2,\dots
+    \\
+     & H=\frac{1}{2m}[p^2+(m\omega x)^2]=\hbar\omega\left( N+\frac{1}{2} \right)
+     & 
+     & N=a_+a_-\quad (=a^\dagger a)
+    \\
+     & N\psi_n=n\psi_n; \, a_\pm = \sqrt{\frac{m \omega}{2 \hbar}} (\hat{x} \mp i \frac{\hat{p}}{m \omega})
+     & 
+     & N(a_+\psi_n)=[N,a_+]\psi_n
+    \\
+     & [N,a_\pm]=\pm a_\pm; \, [a_-, a_+] = 1
+     & 
+     & a_\pm\equiv \frac{1}{\sqrt{2\hbar m\omega}}\left( \mp ip+m\omega x \right)
+    \\
+     & x=\sqrt{\frac{\hbar}{2m\omega}}\,(a_++a_-)
+     & 
+     & p=i\sqrt{\frac{m\omega\hbar}{2}}\,(a_+ - a_-)
+    \\
+     & a_+\psi_n=\sqrt{n+1}\psi_{n+1}
+     & 
+     & a_-\psi_n=\sqrt{n}\psi_{n-1}
+    \\
+     & \psi_0(x)=\left( \frac{m\omega}{\pi\hbar} \right)^{1/4}\exp\left( -\frac{m\omega}{2\hbar}x^2 \right)
+     & 
+     & \psi_n=\frac{1}{\sqrt{n!}}(a_+)^n\psi_0
+    \\
+     & \xi\equiv\sqrt{\frac{m\omega}{\hbar}}x
+     & 
+     & \mathcal{H}_n(\xi)=(-1)^ne^{\xi^2}\left( \frac{d}{d\xi} \right)^ne^{-\xi^2}
+    \\
+     & \psi_n(x)=\left( \frac{m\omega}{\pi\hbar} \right)^{1/4}\frac{1}{\sqrt{2^n n!}}\mathcal{H}_n(\xi)e^{-\xi^2/2}
+     & 
+     & \int_{-\infty}^{+\infty}\mathcal{H}_n\mathcal{H}_me^{-x^2}dx=2^nn!\sqrt{\pi}\delta_{n,m}
+\end{align}

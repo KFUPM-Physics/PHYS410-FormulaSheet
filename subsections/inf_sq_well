@@ -1,0 +1,18 @@
+\subsection*{\underline{1D Infinite Square Well:}}
+\begin{align}
+     & H\psi_n(x)=E_n\psi_n(x)
+     & 
+     & \int\psi^*_n(x)\psi_n(x)dx=\delta_{n,m}
+    \\
+     & \phi_n(x)=\sqrt{\frac{2}{a}}\sin\left( \frac{n\pi}{a}x \right); \, n= 1, 2, \dots
+     & 
+     & \phi_n(x,t)=\phi_n(x)e^{-iE_nt/\hbar}
+    \\
+     & V(x)=\left\{\begin{matrix}0, 0\leq x\leq a\\\infty, \mathrm{otherwise}\end{matrix}\right.
+     & 
+     & E_n=\frac{\hbar^2k_n^2}{2m}=\frac{n^2\pi^2\hbar^2}{2ma^2}
+    \\
+     & \Psi(x,t)=\sum_{n=1}^\infty c_n\phi_n(x)e^{-iE_nt/\hbar}
+     & 
+     & c_n=\int_0^a\phi_n(x)\Psi(x,0)\,dx
+\end{align}

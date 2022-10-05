@@ -1,0 +1,6 @@
+\subsection*{\underline{Bloch Theorem in Solids:}}
+\begin{gather}
+    \psi (R+x)=e^{i k\cdot R} \psi (x)\\
+    \text{\underline{In $3D$:}}\quad k_i = \frac{2\pi n_i}{L}; \quad i=x, y, z;\quad n=0, \pm1, \pm 2, ... \Rightarrow dn = \frac{V}{(2\pi)^3} dk^3\\
+    \sum_{k\sigma}F(k, \sigma)= \frac{V}{(2\pi)^3} \sum_\sigma \int_{}  d k^3 F(k, \sigma)
+\end{gather}

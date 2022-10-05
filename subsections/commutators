@@ -1,0 +1,13 @@
+\subsection*{\underline{Commutator Properties:}}
+\begin{equation}
+    [A,A]=0;\quad
+    [A,B]=-[B,A];\quad
+    [A+B,C]=[A,C]+[B,C]\quad
+\end{equation}
+\begin{equation}
+    [AB,C]=[A,C]B+A[B,C];\quad
+    [A,BC]=[A,B]C+B[A,C];\quad
+\end{equation}
+\begin{equation}
+    [A,[B,C]]+[B,[C,A]]+[C,[A,B]]=0
+\end{equation}

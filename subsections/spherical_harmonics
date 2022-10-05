@@ -1,0 +1,9 @@
+\subsection*{\underline{Spherical Harmonics:}}
+\begin{gather}
+    \langle \theta\, \phi | l \,m \rangle = Y_{\ell, m}(\theta, \phi) \equiv \mathcal{N}_{\ell, m} P_{\ell}^{m}(\cos \theta) e^{i m \phi}\\
+    \hat{L}_{z} Y_{\ell m}=\hbar m Y_{\ell m}\\
+    \hat{L}^{2} Y_{\ell m}=\hbar^{2} \ell(\ell+1) Y_{\ell m}\\
+    \langle l' \,m' | l \,m \rangle = \int d \Omega Y_{\ell^{\prime} m^{\prime}}^{*}(\theta, \phi) Y_{\ell m}(\theta, \phi)=\delta_{\ell^{\prime}, \ell} \delta_{m^{\prime}, m}, \quad \int d \Omega=\int_{0}^{2 \pi} d \phi \int_{-1}^{1} d(\cos \theta)\\
+    Y_{0,0}(\theta, \phi)=\frac{1}{\sqrt{4 \pi}} ; \quad Y_{1, \pm 1}(\theta, \phi)=\mp \sqrt{\frac{3}{8 \pi}} \sin \theta \exp (\pm i \phi) ; \quad Y_{1,0}(\theta, \phi)=\sqrt{\frac{3}{4 \pi}} \cos \theta \\
+    \int |\theta \, \phi \rangle \langle \theta \, \phi | \, d\Omega = 1 \qquad \sum_{lm} | l \, m \rangle \langle l \, m | = 1
+\end{gather}

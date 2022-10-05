@@ -1,0 +1,11 @@
+\subsection*{\underline{Particle on a Ring:}}
+\begin{align}
+     & \psi_\pm(\theta)=\frac{1}{\sqrt{2\pi}}\exp{\left( \pm i\frac{R\theta}{\hbar}\sqrt{2mE} \right)}
+    = \frac{1}{\sqrt{2\pi}}e^{\pm ikx}
+     & 
+     & x=R\theta; L=2\pi R; k=\frac{2\pi n}{L}=\frac{n}{R}
+    \\
+     & \psi(\theta)=\frac{1}{\sqrt{2\pi}}\exp{\pm in\theta}
+     & 
+     & E_n=\frac{n^2\hbar^2}{2mR^2},\quad n=0\pm 1,\pm 2,\pm 3,...
+\end{align}

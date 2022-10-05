@@ -1,0 +1,17 @@
+\subsection*{\underline{Fourier Transform \& Wavepackets}}
+\begin{flalign}
+     & \Psi(x)=\frac{1}{\sqrt{2\pi}}\int dk\Phi(k)e^{ikx},
+     &                                                                                               & \Phi(k)=\frac{1}{\sqrt{2\pi}}\int dx\Psi(x)e^{-ikx}
+     &                                                                                               & \int dx|\Psi(x)|^2 = \int dk|\Phi(k)|^2 = 1
+     &                                                                                                                                                                                                   \\
+     & \Psi(x)=\frac{1}{(2\pi)^\frac{3}{2}}\int d^3k\Phi(\textbf{k})e^{i\textbf{k}\cdot \textbf{x}},
+     &                                                                                               & \Phi(k)=\frac{1}{(2\pi)^\frac{3}{2}}\int d^3x\Psi(\textbf{x})e^{-i\textbf{k}\cdot \textbf{x}}
+     &                                                                                               & \int d^x|\Psi(\textbf{x})|^2 = \int d^k|\Phi(\textbf{k})|^2 = 1
+     &                                                                                                                                                                                                   \\
+     & \frac{1}{2\pi} \int_{-\infty}^\infty e^{ikx}dx = \delta(k)
+     &                                                                                               & \frac{1}{(2\pi)^3} \int_{-\infty}^\infty e^{i\textbf{k}\cdot \textbf{x}}d^3x = \delta^{(3)}(k)
+     &                                                                                               & \Psi(x,t)=\frac{1}{(2\pi)^3}\int\phi(k)e^{i(\mathbf{k}\cdot\mathbf{x}-\omega(\mathbf{k})t)}\,dk^3
+\end{flalign}
+\begin{equation}
+    v_{group} =\frac{d\omega}{dk};\  \Delta k\Delta x \simeq 1
+\end{equation}

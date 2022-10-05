@@ -1,0 +1,24 @@
+\subsection*{\underline{The Wave Function:}}
+$\Psi(x,t)$ obeys Schrodinger's equation, and the normalization condition $\int_{-\infty}^\infty |\Psi(x,t)|^2dx=1$:
+\begin{equation}
+    \braket{x}=\int_{-\infty}^\infty x|\Psi(x,t)|^2dx;
+    \braket{p}=\int_{-\infty}^\infty \Psi^*(x,t)\frac{\hbar}{i}\frac{\partial}{\partial x}\Psi(x,t)dx;
+    \braket{Q(\hat{x},\hat{p})}=\int_{-\infty}^\infty \Psi^*(x,t)Q\left( x,\frac{h}{i} \frac{\partial}{\partial x} \right)\Psi(x,t)dx
+\end{equation}
+\begin{flalign}
+     & i\hbar \frac{\partial }{\partial t}\Psi(x,t)=H\Psi(x,t);
+     &                                                                                        & \Psi(x,t)=\psi(x)e^{-iEt/\hbar};
+     &                                                                                        & H\psi(x)=E\psi(x)
+     &                                                                                                                                                                                                               \\
+     & \rho(x,t)=|\Psi(x,t)|^2;
+     &                                                                                        & \frac{\partial}{\partial t}\rho(\textbf{x},t)+\nabla \cdot \textbf{J}(\textbf{x},t)=0;
+     &                                                                                        & J(x,t)=\frac{i\hbar}{2m}\left( \Psi\frac{\partial \Psi^*}{\partial x}-\Psi^*\frac{\partial \Psi}{\partial x} \right)
+     &                                                                                                                                                                                                               \\
+     & \mathbf{J}(\mathbf{x},t)=\frac{h}{2im}\left( \psi^*\nabla\psi-\psi\nabla\psi^* \right)
+     &                                                                                        & p=\frac{\hbar}{i}\nabla;
+     &                                                                                        & [x_i,p_j] = i\hbar \ \delta_{i,j}
+\end{flalign}
+
+% A Hermitian operator $Q$ obey: $\int\psi^*(x)Q\psi(x)\,dx=\int(Q\psi(x))^*\psi(x)\,dx$, and $Q^\dagger = Q$.\\
+Hermitian conjugate $A^\dagger$ is defined by: $\int(A\psi(x))^*\psi(x),dx=\int\psi(x)A^\dagger\psi(x),dx$.
+$$ H = - \frac{\hbar^2}{2m} \frac{d}{dx^2} + V(x) $$

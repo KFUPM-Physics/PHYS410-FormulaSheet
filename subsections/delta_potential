@@ -1,0 +1,36 @@
+\subsection*{\underline{Models of Dirac Delta Distribution $\delta(x)$:}}
+\begin{equation}
+    \delta(x)=\lim_{\alpha\rightarrow\infty}\frac{\sin(\alpha x)}{\pi x};\ 
+    \delta(x)=\lim_{\epsilon\rightarrow0^+}\frac{1}{2\pi}\int_{-\infty}^{\infty}e^{-ikx}e^{-\epsilon |k|}\,dk=\lim_{\epsilon\rightarrow0^+}\frac{\epsilon}{\pi (x^2+\epsilon^2)};\ 
+    \delta(x)=\lim_{\epsilon\rightarrow0}\frac{\Theta(x+\epsilon)-\Theta(\epsilon)}{\epsilon}
+\end{equation}
+where $\Theta(x)$ is Heaviside or step function,
+\begin{align}
+    \Theta{(x)} = \begin{cases}
+        1 , & x > 0 \\
+        0 , & x < 0
+    \end{cases}
+\end{align}
+
+\subsection*{\underline{Bound State of Single $\delta$-Potential:} \fbox{$E < 0$}}
+\begin{align}
+     & V=-\alpha\delta(x), \ \alpha>0
+     & 
+     & \psi(x)=\sqrt{\frac{m\alpha}{\hbar^2}}\ e^{-\frac{m\alpha}{\hbar^2}|x|}
+     & 
+     & E=-\frac{m\alpha^2}{2\hbar^2}
+\end{align}
+
+\subsection*{\underline{Scattering State:} \fbox{$E > 0$}}
+\begin{align}
+     & V(x)=-\alpha\delta(x);\, k = \frac{\sqrt{2mE}}{\hbar}
+     & 
+     & \psi(x) = \begin{cases}
+        Ae^{ikx}+Be^{-ikx}, & x<0 \\
+        Fe^{ikx},           & x>0
+    \end{cases}
+    \\
+     & T=\frac{|F|^2}{|A|^2}=\frac{1}{1+\beta^2}
+     & 
+     & R=\frac{|B|^2}{|A|^2}=\frac{\beta}{1+\beta}\qquad (\beta=m\alpha/\hbar^2k)
+\end{align}

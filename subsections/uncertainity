@@ -1,0 +1,9 @@
+\subsection*{\underline{Uncertainty Principle:}}
+\begin{align}
+     & (\Delta Q)^2 = \braket{Q^2} - \braket{Q}^2 = \braket{(Q-\braket{Q})^2}
+     & \Delta x \Delta p \geq \frac{\hbar}{2}
+\end{align}
+Where $\Delta Q$ is the uncertainty for the Hermitian Operator Q.
+\begin{align}
+    (\Delta{Q})^2 (\Delta{R})^2 \ge \frac{1}{2} \left| \langle [Q, R] \rangle \right| ^2
+\end{align}

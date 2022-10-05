@@ -1,0 +1,22 @@
+\subsection*{\underline{Transfer Matrix}} % (fold)
+\label{sub:Transfer Matrix}
+\begin{align}
+    \begin{bmatrix}
+        F \\ G
+    \end{bmatrix} = M \begin{bmatrix}
+        A \\ B
+    \end{bmatrix} \qquad
+    M = \begin{bmatrix}
+        M_{11}   & M_{12}   \\ 
+        M^*_{12} & M^*_{11}
+    \end{bmatrix} \qquad
+    \det{M} = 1
+\end{align}
+\begin{wrapfigure}{r}{0.35\linewidth}
+    \includegraphics[width=1\linewidth]{./figures/arbitrary_V.png}
+    \caption{Scattering from an arbitrary localized potential ($V(x)=0$ except for Region II)}
+    \label{fig:arbitrary localized potential}
+\end{wrapfigure}
+\begin{align}
+    T = \frac{1}{|M_{22}|^2}; \qquad R+T = 1
+\end{align}

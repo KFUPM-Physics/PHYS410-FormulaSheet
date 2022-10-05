@@ -1,0 +1,30 @@
+\subsection*{\underline{Identical Particles:}}
+Particles that share the same intrinsic properties: mass, charge, spin, magnetic moment, \dots etc. Identical particles are indistinguishable
+\begin{equation}
+    \Psi(1, 2, \dots, i, \dots, j, \dots, N)=\pm\Psi(1, 2, \dots, j, \dots, i, \dots, N)
+\end{equation}
+are either symmetric for Bosons (integer spin particles) or antisymmetric for Fermions (half integer spin particles) under exchange of any two particles.\\
+$\implies$ Pauli Exclusion Principle: Two identical Fermions cannot occupy the same quantum state.
+\begin{equation}
+    \Psi_{Fermions}(R_1,R_2,\dots,R_N)= \frac{1}{\sqrt{N!}}
+    \left(\begin{matrix}
+            \Psi_1(R_1) & \Psi_2(R_1) & \dots  & \Psi_N(R_1) \\
+            \Psi_1(R_2) & \Psi_2(R_2) & \dots  & \Psi_N(R_2) \\
+            \vdots      & \vdots      & \vdots & \vdots      \\
+            \Psi_1(R_N) & \Psi_2(R_N) & \dots  & \Psi_N(R_N)
+        \end{matrix}\right)
+\end{equation}
+For Bosons use the same Slater-determinant by replacing all signs be + .
+Spin $\frac{1}{2}$ particles can be in any of the following states:
+\begin{enumerate}
+    \item[] \underline{Singlet State (Antisymmetric state):} \begin{equation} \chi_s(s1,s2)=\frac{1}{\sqrt{2}}(\chi_{\uparrow}(s1)\chi_{\downarrow}(s2)-\chi_{\downarrow}(s1)\chi_{\uparrow}(s2)) \end{equation} with total spin s=0.
+    \item[] \underline{Triplet States (Symmetric state):} with total spin $S_z=$1, 0, -1:
+        \begin{gather}
+            \chi_T(s_1, s_2) 
+            \begin{cases}
+                \chi_{1,1}(s_1,s_2)=\chi_{\uparrow}(s_1)\chi_{\uparrow}(s_2)       \\
+                \chi_{-1,-1}(s_1,s_2)=\chi_{\downarrow}(s_1)\chi_{\downarrow}(s_2) \\
+                \chi_{1,0}(s_1,s_2)=\frac{1}{\sqrt{2}}(\chi_{\uparrow}(s_1)\chi_{\downarrow}(s_2)+\chi_{\downarrow}(s_1)\chi_{\uparrow}(s_2))
+            \end{cases}
+        \end{gather}
+\end{enumerate}

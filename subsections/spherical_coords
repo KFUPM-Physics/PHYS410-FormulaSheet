@@ -1,0 +1,15 @@
+\subsection*{\underline{Spherical Coordinates:}}
+$$
+    \begin{aligned}
+         & \hat{\mathbf{r}}=\sin \theta \cos \phi \hat{\mathbf{x}}+\sin \theta \sin \phi \hat{\mathbf{y}}+\cos \theta \hat{\mathbf{z}}          \\
+         & \hat{\boldsymbol{\theta}}=\cos \theta \cos \phi \hat{\mathbf{x}}+\cos \theta \sin \phi \hat{\mathbf{y}}-\sin \theta \hat{\mathbf{z}} \\
+         & \hat{\boldsymbol{\phi}}=-\sin \phi \hat{\mathbf{x}}+\cos \phi \hat{\mathbf{y}}
+    \end{aligned}
+$$
+$$
+    \begin{aligned}
+         & \hat{\mathbf{x}}=\sin \theta \cos \phi \hat{\mathbf{r}}+\cos \theta \cos \phi \hat{\boldsymbol{\theta}}-\sin \phi \hat{\boldsymbol{\phi}} \\
+         & \hat{\mathbf{y}}=\sin \theta \sin \phi \hat{\mathbf{r}}+\cos \theta \sin \phi \hat{\boldsymbol{\theta}}+\cos \phi \hat{\boldsymbol{\phi}} \\
+         & \hat{\mathbf{z}}=\cos \theta \hat{\mathbf{r}}-\sin \theta \hat{\boldsymbol{\theta}}
+    \end{aligned}
+$$

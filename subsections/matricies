@@ -1,0 +1,35 @@
+\subsection*{\underline{Matrix Algebra:}}
+Let A be a 2X2 matrix defined as:
+$A = \begin{bmatrix}
+        a & b \\
+        c & d
+    \end{bmatrix}$ then:
+\begin{align}
+     &  & A^{-1}=\frac{1}{|A|}
+    \begin{bmatrix}
+        d  & -b \\
+        -c & a
+    \end{bmatrix};\, |A| = ad-bc
+\end{align}
+\begin{align}
+    \sigma_x = \begin{bmatrix}
+        0 & 1 \\
+        1 & 0
+    \end{bmatrix} \qquad
+    \sigma_y = \begin{bmatrix}
+        0 & -1 \\
+        i & 0
+    \end{bmatrix} \qquad
+    \sigma_z = \begin{bmatrix}
+        1 & 0  \\
+        0 & -1
+    \end{bmatrix}
+\end{align}
+\begin{align}
+    \{ \sigma_i, \sigma_j \} = 2 \delta_ij \qquad
+    [\sigma_i, \sigma_j] = 2i \in ijk \qquad
+    \sigma_i \sigma_j = \begin{cases}
+        1 ,                   & i=j      \\
+        - \sigma_j \sigma_i , & i \neq j
+    \end{cases}
+\end{align}
