@@ -1,0 +1,60 @@
+\newpage
+\subsection*{\underline{Time Dependant Perturbation:}}
+
+\begin{gather*}
+	H(t) = H_o +H'(t); \hspace{0.5 cm} H_0\ket{\psi_n} = E_n\ket{\psi_n}\\
+	\ket{\Psi(t)} = \sum_n{C_n(t) e^{-iE_nt/\hbar}}\ket{\psi_n}
+\end{gather*}
+Schrodinger equation
+
+\begin{equation*}
+	i\hbar\frac{\partial}{\partial t}\ket{\Psi(t)} = H(t)\ket{\Psi(t)}
+\end{equation*}
+gives:
+
+\begin{equation*}
+	\left\{ \arraycolsep=1.4pt\def\arraystretch{1.5}
+	\begin{array}{ll}
+			\;i\hbar\dot{C_k} (t) =  \sum_n{H'_{kn}(t)e^{i\omega_{kn}t}C_n(t)}\\
+			\;H'_{kn}(t) = \bra{\psi_k}\expval{H'(t)}\ket{\psi_n}\\
+			\;\omega_{kn} = (E_k-E_n)/\hbar\\
+	\end{array} \right.
+\end{equation*}
+with initial condition $\ket{\psi(t_o)} = \ket{\Phi_o}$ so that:
+\begin{equation*}
+	C_n(t_o) = \bra{\psi_n}\ket{\Phi_o}e^{-iE_nt_o/\hbar}
+\end{equation*}
+as initial condition for the above coupled equation in $C_n(t)$
+
+\subsection*{\underline{Two Level System:}}
+\begin{gather*}
+	\ket{\Psi(t)} = C_a(t)e^{-iE_at/\hbar}\ket{\psi_a} + C_b(t)e^{-iE_bt/\hbar}\ket{\psi_b}\\
+	H_o\ket{\psi_a} = E_a\ket{\psi_a}; \hspace{1.7 cm} H_o\ket{\psi_b} = E_b\ket{\psi_b}
+\end{gather*}
+Gives, assuming $H_{aa} = H_{bb} = 0$,
+
+\begin{equation*}
+	\left\{ \arraycolsep=1.4pt\def\arraystretch{1.5}
+ 	\begin{array}{ll}
+			\dot{C_a} (t) =  -\frac{i}{\hbar}H'_{ab}(t)e^{-i\omega_{o}t}C_b(t)\\ 
+			\dot{C_b} (t) =  -\frac{i}{\hbar}H'_{ba}(t)e^{i\omega_{o}t}C_a(t)\\
+			\omega_o = \frac{E_b-E_a}{\hbar}
+	\end{array} \right.
+\end{equation*}
+Initial Condition $C_a(0) = 1; \hspace{0.5 cm} C_b(0)=0$
+
+\subsection*{\underline{First Order Perturbation:}}
+\begin{equation*}
+	C_b^{(1)} = -\frac{i}{\hbar}\int^t_{t_o}{H'_{ba}(t')e^{i\omega_ot'} dt'}
+\end{equation*}
+Transmission probability:
+\begin{equation*}
+	P_{ab} = \left|C_b^{(1)}\right|^2 = \frac{1}{\hbar^2}\left|\int^t_{t_o}{H'_{ba}(t')e^{i\omega_ot'} dt'}\right|^2
+\end{equation*}
+
+\section*{\underline{Sinusoidal Perturbation:}}
+\begin{gather*}
+	\hat{H}'(\textbf{r},t) = V(\textbf{r})\cos{(\omega t)}\\
+	P_{ab}(t) = |C_b(t)|^2 \approx \frac{|V_{ab}|^2}{\hbar^2}\frac{\sin^2{[(\omega_o - \omega)t/2]}}{(\omega_o-\omega)^2}\\
+	\frac{dN_b}{dt} = -N_bA - N_bB_{ba}\rho(\omega_o) + N_aB_{ab}\rho(\omega_o) = 0
+\end{gather*}
